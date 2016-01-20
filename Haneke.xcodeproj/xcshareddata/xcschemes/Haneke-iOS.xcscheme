@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A095C9551980418C00CD0F4C"
                BuildableName = "Haneke.framework"
-               BlueprintName = "Haneke"
+               BlueprintName = "Haneke-iOS"
                ReferencedContainer = "container:Haneke.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,7 +40,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -58,7 +59,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A095C9551980418C00CD0F4C"
             BuildableName = "Haneke.framework"
-            BlueprintName = "Haneke"
+            BlueprintName = "Haneke-iOS"
             ReferencedContainer = "container:Haneke.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A095C9551980418C00CD0F4C"
             BuildableName = "Haneke.framework"
-            BlueprintName = "Haneke"
+            BlueprintName = "Haneke-iOS"
             ReferencedContainer = "container:Haneke.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,7 +99,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A095C9551980418C00CD0F4C"
             BuildableName = "Haneke.framework"
-            BlueprintName = "Haneke"
+            BlueprintName = "Haneke-iOS"
             ReferencedContainer = "container:Haneke.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
