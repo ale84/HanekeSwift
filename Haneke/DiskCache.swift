@@ -134,8 +134,8 @@ public class DiskCache {
             for pathComponent in contents {
                 let path = (cachePath as NSString).appendingPathComponent(pathComponent)
                 do {
-                    let attributes = try fileManager.attributesOfItem(atPath: path) as? NSDictionary
-                    size += (attributes?.fileSize())!
+                    let attributes = try fileManager.attributesOfItem(atPath: path) as NSDictionary
+                    size += (attributes.fileSize())
                 } catch {
                     Log.error(message: "Failed to read file size of \(path)", error: error as NSError)
                 }
